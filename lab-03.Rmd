@@ -1,6 +1,6 @@
 ---
 title: "Lab 03 - Take a sad plot and make it better"
-author: "YIRAN LI, Esther Wang, Hong Ding, Queency Wu, Liu Fangyao and Jin Yicheng - Code Breakers"
+author: "YIRAN LI, Esther Wang, Hong Ding, Queency Wu, User5 and User6 - Team Name"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -71,13 +71,14 @@ staff <- read_csv("data/instructional-staff.csv")
 ## Exercise 1
 
 What is the difference between *wide format* data and *long format* data?
-
+Wide Format: One row per ID, multiple columns.
+Long Format: Multiple rows in each ID, and one column.
 
 Is the format `staff` data *wide* or *long*?
-
+wide
 
 How many observations are there in the data set?
-
+55
 
 
 
